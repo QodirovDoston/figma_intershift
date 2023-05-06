@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
 * {
     margin: 0;
     position: 0;
@@ -7,22 +8,15 @@
 
 
 
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
-
 body {
-  font-family: poppins, sans-serif;  
+  font-family: "Mona";  
   margin: 0px;
 }
 
 nav {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: rgb(245, 244, 244);
   padding: 10px;
-  /* text-align: center; */
   width: 100%;
   position: sticky;
   top: 0px;
@@ -59,7 +53,7 @@ section#tim-vine {
 section#bill-hicks {
   background: rgb(123,211,232);
   background: linear-gradient(135deg, rgba(123,211,232,1) 0%, rgba(232,123,165,1) 0%, rgba(255,50,50,1) 100%);
-  color: #40081a;
+  color: #2e2729;
 }
 
 section#stewart-francis {
@@ -87,6 +81,9 @@ section#stewart-francis {
   body {
     font-size: 11px;
   }
+  .btn_group{
+    display: none;
+  }
 }
 
 
@@ -112,7 +109,8 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  background: #eceaea;
+  background-color: rgb(245, 244, 244);
+
   height: autorgb(102, 98, 98);
   width: 100%;
   padding-top: 40px;
@@ -221,8 +219,6 @@ margin-bottom: 20px;
   position: sticky;
 }
 
-
-
 .list_style{
   list-style: none;
 }
@@ -232,7 +228,7 @@ margin-bottom: 20px;
   width: 100%;
 }
 .container3 {
-    width: 67%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -361,7 +357,12 @@ border-radius: 100px;
 width: 297px;
 height: 80px;
 border-radius: 100px;
-
+}
+.long:hover{
+  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
+}
+.street:hover{
+  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
 }
 header{
     margin-top:  0px;
@@ -371,7 +372,7 @@ header{
 }
 .iconss {
   display: none !important;
-  margin-left: 235px;
+  margin-left: 175px;
   margin-top: -53px;
 }
 .imgad{
@@ -398,11 +399,10 @@ background: #43AAFF;
 border-radius: 30px;
 box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
 box-shadow: #9c9fa2;
-box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
-
 }
 .box_six:hover{
-  opacity: 0.5;
+box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 .box_six1{
   width: 278.54px;
@@ -411,10 +411,9 @@ box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
   box-shadow: #9c9fa2;
   background: #FFC24D;
-box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .box_six1:hover{
-  opacity: 0.5;
+box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .box_six1 h5{
   position: absolute;
@@ -453,6 +452,7 @@ justify-content: flex-start;
       width: 100%;
   }
   .same h2 {
+      margin-top: -100px;
     text-align: center;
     font-size: 16px !important;
     margin-left: -2px !important;
@@ -463,15 +463,15 @@ justify-content: flex-start;
   text-align: center;
 }
 .street {
-letter-spacing: 0.15em;
-width: 125px;
+width: 115px;
 height: 45px;
 font-size: 6px;
 }
 .long {
-width: 125px;
+width: 115px;
 height: 45px;
 font-size: 6px;
+  margin: 6px !important;
 }
   .logo_one h2{
     margin-top: 2px;
@@ -507,15 +507,17 @@ font-size: 6px;
   .circle{
       display: none;
   }
-  .fa-brands{
+  #telfon_icons{
     display: none !important;
       margin-top: 20px;
+
   }
   .iconss{
 
       display: block !important;
   }
 .big_box{
+  justify-content: center;
 display: grid;
 margin-top: 2px !important; 
 gap: 10px;
@@ -526,8 +528,10 @@ margin-top: 1px;
 .box_six{
 margin-top: 1px;
 } 
-.long {
-margin-top: 10px !important;
+.ikkita_btn{
+  justify-content: center;
+  margin-top:-20px ;
 }
+
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
