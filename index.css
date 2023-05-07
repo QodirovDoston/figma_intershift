@@ -33,6 +33,19 @@ nav a:hover {
 
 
 
+/* /navbar ///////////// */
+
+.d{
+  display: flex;
+}
+.ul_list{
+  list-style: none;
+  display: flex;
+}
+
+/* //////////////////////////////navbar////////////////// */
+
+
 
 .navbarrrr{
   position: sticky;
