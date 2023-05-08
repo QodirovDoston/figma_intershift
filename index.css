@@ -6,12 +6,10 @@
   position: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Mona";
   margin: 0px;
 }
-
 nav {
   /* background-color:  transparent; */
   background-color: rgb(245, 244, 244);
@@ -20,7 +18,6 @@ nav {
   position: sticky;
   top: 0px;
 }
-
 nav a {
   color: white;
   text-decoration: none;
@@ -35,11 +32,11 @@ nav a:hover {
 }
 
 .d {
+.list_stayle{
   display: flex;
   margin-left: 280px;
   margin-top: 20px;
 }
-
 .btn {
   font-family: 'Mont';
   font-style: normal;
@@ -67,6 +64,17 @@ nav a:hover {
 }
 
 .list_style {
+@media (max-width:576px) {
+  .list_stayle{
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
+/* //////////////////////////////navbar////////////////// */
+.navbarrrr{
+  position: sticky;
+}
+.list_style{
   list-style: none;
 }
 
@@ -80,7 +88,6 @@ nav a:hover {
   width: 70%;
   margin: 0 auto;
 }
-
 .logo_one {
   margin-top: 20px;
   display: flex;
@@ -132,6 +139,32 @@ nav a:hover {
 
 .circle h4 {
   margin-left: 10px;
+    margin-left: 10px;
+  }
+  .same{
+    margin-top: 100px;
+  }
+  .same button {
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 100px;
+    border: none;
+  }
+  .same h2 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    color: #4B5258;
+  }
+  .same span {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4B5258;
 }
 
 .same {
@@ -171,7 +204,6 @@ nav a:hover {
   font-size: 18px;
   line-height: 160%;
   color: #4B5258;
-
 }
 
 .street {
@@ -221,9 +253,10 @@ header {
 }
 
 .iconss {
+.fa-solid {
   display: none !important;
-  margin-left: 175px;
-  margin-top: -53px;
+  margin-left: 245px;
+  margin-top: -63px;
 }
 
 .imgad {
@@ -286,6 +319,8 @@ header {
 }
 
 .big_box {
+}  
+.big_box{
   display: flex;
   gap: 55px;
   margin-top: 130px;
@@ -436,6 +471,7 @@ header {
 /* h-Header ///////////////// */
 
 
+/* h-Header ///////////////// */
 
 /* //////////////////////////////footer///////////////// */
 * {
@@ -454,7 +490,6 @@ footer {
   background-color: transparent;
   padding: 10px;
   text-align: center;
-  /* position: sticky; */
   top: 0px;
   bottom: 0;
   left: 0;
@@ -469,6 +504,7 @@ footer {
 
 .footer-content {
   /* margin-top: 200px; */
+.footer-content{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -581,3 +617,129 @@ footer {
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
+@media screen and (max-width: 575px) {
+  footer {
+    margin-top: 570px;
+  }
+}
+
+
+
+
+@media (max-width:1075px) {
+  .big_box{
+  flex-wrap: wrap;
+}
+.fa-solid {
+display: block !important;
+}
+.nav-text{
+  display: none;
+}
+.circle{
+  display: none;
+}
+.logo_one h3{
+  display: none;
+}
+}
+
+
+@media (max-width:575px) {
+  .nav-text{
+    display: none;
+  }
+  .logo_one{
+    margin: auto;
+    display: grid;
+  }
+  .length{
+    display: grid;
+  }
+  .girls{
+    width: 100%;
+  }
+  .same h2 {
+    margin-top: -53px;
+    text-align: center;
+    font-size: 16px !important;
+    margin-left: -2px !important;
+  }
+  .same p {
+    margin-left: 4px;
+    font-size: 12px !important;
+    text-align: center;
+  }
+  .btn {
+  display: none;
+  }
+  .street {
+    width: 115px;
+    height: 45px;
+    font-size: 6px;
+  }
+  .long {
+    width: 115px;
+    height: 45px;
+    font-size: 6px;
+    margin: 6px !important;
+  }
+  .logo_one h2{
+    margin-top: 2px;
+    margin-left: 0px;
+    
+  }
+  .logo_one p{
+    display: none;
+    
+  }
+  .logo_one h3{
+    display: none;
+    margin-top: 3px;
+    margin-left: 1px;
+  }
+  .logo_one h4{
+    margin-left: 0px;
+  }
+  .logo_one span{
+      padding-top: 100px;
+      margin-left: 150px;
+    }
+    .logo_one button{
+      margin-top: 20px;
+      margin: auto;
+    }
+    header{
+      margin-top: 20px;
+    }
+    .girls{
+      margin-top: 100px;
+    }
+    .circle{
+      display: none;
+    }
+  #telfon_icons{
+    display: none !important;
+    margin-top: 20px;
+  }
+  .iconss{
+    display: block !important;
+  }
+  .big_box{
+    justify-content: center;
+    display: grid;
+    margin-top: 2px !important; 
+    gap: 10px;
+  }
+  .box_six1{
+    margin-top: 1px;
+  }
+  .box_six{
+    margin-top: 1px;
+} 
+.ikkita_btn{
+margin-left: 54px;
+  margin-top:-20px ;
+}
+}
