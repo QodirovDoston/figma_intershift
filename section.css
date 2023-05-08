@@ -79,7 +79,12 @@ nav a:hover {
 /* //////////////////////////////navbar////////////////// */
 
 
-
+@media (max-width:576px) {
+  .d{
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
 .navbarrrr {
   position: sticky;
 }
