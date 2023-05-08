@@ -1,0 +1,417 @@
+
+@font-face {
+    font-family: pop;
+    src: url(./fonts/Poppins-Medium.ttf);
+  }
+  .btnZnali {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    background: #ffc24d;
+    border-radius: 30px;
+    padding: 11px 48px;
+    border: none;
+    /* margin-top: 450px; */
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .fact {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 70px;
+    color: #959a9d;
+  }
+  .bigBlueCard{
+    margin-left: 100px;
+  }
+  .mainBoburPage {
+    /* width: 100%; */
+    height: auto;
+    display: flex;
+    /* background: #F2F9FF; */
+    background:white; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: pop;
+    /* padding: 50px; */
+  }
+  .mainBoburPage .heading {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .mainBoburPage span {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .containerFactCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hidden{
+display: none;
+  }
+  @media (max-width:576px) {
+    .bigBlueCard {
+      width: 195px !important;
+      height: 100px;
+      background: #43aaff;
+      border-radius: 30px;
+      margin-left: 20px;
+  } 
+  .bigBlueCardText{
+    font-size: 19px;
+  }
+ .image-content{
+  display: none !important;
+ }
+ .overlay{
+  background: rgb(230, 229, 229) !important;
+ }
+
+.hidden{
+  display: block !important;
+  font-size: 14px !important;
+}
+.wordsForAlarm{
+  display:none!important;
+}
+  }
+  .containerFactCard .card {
+    width: 328px;
+    height: 410px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+    margin: 15px;
+  }
+  .card::after {
+    content: " ";
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(30, 83, 196); */
+    background-color: #fff;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: fit;
+    transition: 0.4s;
+    /* box-shadow: 0px 0px 22px  rgba(0, 0, 0, 0.37); */
+    z-index: 1;
+  }
+  .card:hover img {
+    transform: scale(0.5) translateY(-50px);
+    border-radius: 0px;
+  }
+  .card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    /* transform: translateY(100%); */
+    transition: 0.4s;
+  }
+  .card:hover .details {
+    transform: translateY(0);
+  }
+  .details h3 {
+    font-size: 22px;
+    color: rgb(0, 81, 255);
+  }
+  .details p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 7px;
+  }
+  .details .social-links {
+    display: flex;
+  }
+  .details .social-links a {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: #333;
+    background-color: rgb(182, 182, 182);
+    text-decoration: none;
+    transition: 0.6s;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+  }
+  .details .social-links a:hover {
+    transform: rotate(360deg);
+    background-color: #e7b251;
+    color: #fff;
+  }
+  
+  /* /////////////////////// */
+  .flexingdiv h1 {
+    font-size: 5.25vmin;
+    text-align: center;
+    color: white;
+  }
+  .flexingdiv p {
+    font-size: max(10pt, 2.5vmin);
+    line-height: 1.4;
+    color: #0e390e;
+    margin-bottom: 1.5rem;
+  }
+  
+  .wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100vmin;
+    border-radius: 20px;
+    height: 20em;
+    margin: 2rem auto;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    background:  #FFFFFF;
+    transition: 0.4s ease-in-out;
+    z-index: 1;
+  }
+  .overlay-content {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15vmin;
+    height: 100%;
+    padding: 0.5rem 0 0 0.5rem;
+    transition: 0.3s ease-in-out 0.2s;
+    z-index: 1;
+  }
+  .image-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./img/Mask Group.jpg");
+    transition: 0.3s ease-in-out;
+    /* border: 1px solid green; */
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 55px;
+    height: 4vmin;
+    transition: 0.3s ease-in-out 0.3s;
+  }
+  .dot {
+    width: 14px;
+    height: 14px;
+    background: rgb(238, 212, 15);
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out 0.3s;
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 62vmin;
+    height: 100%;
+    padding: 3vmin 4vmin;
+    background: #fff;
+    box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / 0.4);
+    overflow-y: scroll;
+  }
+  
+  .wrap:hover .overlay {
+    transform: translateX(-60vmin);
+  }
+  .wrap:hover .image-content {
+    width: 44vmin;
+  }
+  .wrap:hover .overlay-content {
+    border: none;
+    transition-delay: 0.2s;
+    /* transform: translateX(60vmin); */
+  }
+  .wrap:hover .dots {
+    transform: translateX(1rem);
+  }
+  .wrap:hover .dots .dot {
+    background: rgb(251, 218, 5);
+  }
+  
+  /* Animations and timing delays */
+  .animate {
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+  }
+  /* Pop In */
+  .pop {
+    animation-name: pop;
+  }
+  @keyframes pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+  
+  /* Slide In */
+  .slide {
+    animation-name: slide;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translate(4em, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+  /* Slide Left */
+  .slide-left {
+    animation-name: slide-left;
+  }
+  @keyframes slide-left {
+    0% {
+      opacity: 0;
+      transform: translate(-40px, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+  .slide-up {
+    animation-name: slide-up;
+  }
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(3em);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+  .delay-4 {
+    animation-delay: 1.2s;
+  }
+  .delay-5 {
+    animation-delay: 1.5s;
+  }
+  .delay-6 {
+    animation-delay: 1.8s;
+  }
+  .delay-7 {
+    animation-delay: 2.1s;
+  }
+  .delay-8 {
+    animation-delay: 2.4s;
+  }
+  .bigBlueCard {
+    width: 258px;
+    height: 100px;
+    /* margin-left: 30px; */
+    background: #43aaff;
+    border-radius: 30px;
+  }
+
+  .friend {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .yellowBigButton {
+    margin-top: 15px;
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 55px;
+    background: #ffc24d;
+    border-radius: 100px;
+    border: none;
+  }
+  .list{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    font-size: 20px;
+  }
+  .list a:hover{
+   color:#cc8b12;
+   transition: .3s;
+  }
+  .list_item a{
+    text-decoration: none;
+
+  }
+  .mainPage{
+    color: black;
+    text-decoration: none;
+  }
+  .mainPage:hover{
+    color: blue;
+  }
