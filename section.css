@@ -16,6 +16,589 @@
     margin-bottom: 20px;
     color: #ffffff;
   }
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  position: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mona";
+  margin: 0px;
+}
+
+nav {
+  /* background-color:  transparent; */
+  background-color: rgb(245, 244, 244);
+  padding: 10px;
+  width: 100%;
+  /* position: sticky; */
+  /* top: 0px; */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+  font-size: 13px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.d {
+  display: flex;
+  margin-left: 280px;
+  margin-top: 20px;
+}
+
+.btn {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  background: transparent;
+  color: #4B5258;
+  width: 200px;
+  height: 55px;
+  border: 1px solid #43AAFF;
+  border-radius: 100px;
+}
+
+/* /navbar ///////////// */
+
+
+/* //////////////////////////////navbar////////////////// */
+
+
+
+.navbarrrr {
+  position: sticky;
+}
+
+.list_style {
+  list-style: none;
+}
+
+.backround_img {
+  background-image: url('./img/img/Фон\ \(1\).png');
+  height: 670px;
+  width: 100%;
+}
+
+.container3 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo_one {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  font-size: 45px;
+}
+
+.fa-whatsapp {
+  margin-left: 10px;
+}
+
+.logo_one h3 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #4B5258;
+  margin-left: 15px;
+}
+
+.logo_one h4 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #959A9D;
+}
+
+.logo_one span {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #4B5258;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+.circle h4 {
+  margin-left: 10px;
+}
+
+.same {
+  margin-top: 100px;
+}
+
+.same button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 100px;
+  border: none;
+}
+
+.same h2 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+  color: #4B5258;
+}
+
+.same span {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4B5258;
+}
+
+.same p {
+  margin-top: 30px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5258;
+
+}
+
+.street {
+  background: #43AAFF;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  font-family: 'Mont';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 297px;
+  height: 80px;
+  font-size: 13px;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+}
+
+.long {
+  margin-top: 66px !important;
+  background: #FFC24D;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Mont';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 297px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+.long:hover {
+  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
+}
+
+.street:hover {
+  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
+}
+
+header {
+  margin-top: 0px;
+}
+
+.length {
+  display: flex;
+}
+
+.iconss {
+  display: none !important;
+  margin-left: 175px;
+  margin-top: -53px;
+}
+
+.imgad {
+  margin-left: 153px;
+  border-radius: 0px 0px 25px 0px;
+  margin-top: 29px;
+}
+
+.box_six h5 {
+  position: absolute;
+  width: 190.9px;
+  margin: 30px;
+  height: 59.65px;
+  margin-top: 60.17px;
+  font-family: 'Mont';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.box_six {
+  width: 278.54px;
+  height: 179.13px;
+  background: #43AAFF;
+  border-radius: 30px;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+  box-shadow: #9c9fa2;
+}
+
+.box_six:hover {
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.box_six1 {
+  width: 278.54px;
+  height: 179.13px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+  box-shadow: #9c9fa2;
+  background: #FFC24D;
+}
+
+.box_six1:hover {
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box_six1 h5 {
+  position: absolute;
+  width: 190.9px;
+  margin: 30px;
+  height: 59.65px;
+  margin-top: 60.17px;
+  font-family: 'Mont';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.big_box {
+  display: flex;
+  gap: 55px;
+  margin-top: 130px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width:575px) {
+  .nav-text {
+    display: none;
+  }
+
+  .logo_one {
+    margin: auto;
+    display: grid;
+  }
+
+  .length {
+    display: grid;
+  }
+
+  .girls {
+    width: 100%;
+  }
+
+  .same h2 {
+    margin-top: -100px;
+    text-align: center;
+    font-size: 16px !important;
+    margin-left: -2px !important;
+  }
+
+  .same p {
+    margin-left: 4px;
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  .street {
+    width: 115px;
+    height: 45px;
+    font-size: 6px;
+  }
+
+  .long {
+    width: 115px;
+    height: 45px;
+    font-size: 6px;
+    margin: 6px !important;
+  }
+
+  .logo_one h2 {
+    margin-top: 2px;
+    margin-left: 0px;
+
+  }
+
+  .logo_one p {
+    display: none;
+
+  }
+
+  .logo_one h3 {
+    display: none;
+    margin-top: 3px;
+    margin-left: 1px;
+  }
+
+  .logo_one h4 {
+    margin-left: 0px;
+  }
+
+  .logo_one span {
+    padding-top: 100px;
+    margin-left: 150px;
+  }
+
+  .logo_one button {
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 20px;
+  }
+
+  .girls {
+    margin-top: 100px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  #telfon_icons {
+    display: none !important;
+    margin-top: 20px;
+
+  }
+
+  .iconss {
+
+    display: block !important;
+  }
+
+  .big_box {
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: grid; */
+    margin-top: 2px !important;
+    gap: 10px;
+  }
+
+  .box_six1 {
+    margin-top: 1px;
+  }
+
+  .box_six {
+    margin-top: 1px;
+  }
+
+  .ikkita_btn {
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+}
+
+@media (max-width:1075px) {
+  .big_box {
+    flex-wrap: wrap;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .logo_one h3 {
+    display: none;
+  }
+}
+
+/* h-Header ///////////////// */
+
+
+
+/* //////////////////////////////footer///////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 380px;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  /* position: sticky; */
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(245, 244, 244);
+
+  height: autorgb(102, 98, 98);
+  width: 100%;
+  padding-top: 40px;
+  color: #020202;
+}
+
+.footer-content {
+  /* margin-top: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #0c0c0c;
+  border: 1.1px solid rgb(24, 24, 24);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: rgb(9, 23, 228);
+}
+
+.footer-bottom {
+  background: #c4c3c3;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 9px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom p a {
+  color: #868788;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.footer-menu {
+  float: right;
+
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  color: #bc4708;
+}
+
+@media (max-width:500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
   .fact {
     font-family: "Mont";
     font-style: normal;
