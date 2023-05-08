@@ -12,8 +12,8 @@ body {
 }
 
 nav {
-  background-color:  transparent;
-  /* background-color: rgb(245, 244, 244); */
+  /* background-color:  transparent; */
+  background-color: rgb(245, 244, 244);
   padding: 10px;
   width: 100%;
   position: sticky;
@@ -23,25 +23,38 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
+  justify-content: center;
+  justify-content: space-between;
   margin: 0px 20px;
-  font-size: 1.3em;
+  font-size: 13px;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-
-
-/* /navbar ///////////// */
-
 .d{
   display: flex;
+  margin-left: 280px;
+  margin-top: 20px;
 }
-.ul_list{
-  list-style: none;
-  display: flex;
+
+.btn {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  background: transparent;
+  color: #4B5258;
+  width: 200px;
+  height: 55px;
+  border: 1px solid #43AAFF;
+  border-radius: 100px;
 }
+/* /navbar ///////////// */
+
 
 /* //////////////////////////////navbar////////////////// */
 
@@ -60,7 +73,7 @@ nav a:hover {
   width: 100%;
 }
 .container3 {
-  width: 65%;
+  width: 70%;
     margin: 0 auto;
 }
 
@@ -247,8 +260,9 @@ header{
 .big_box{
   display: flex;
   gap:55px;
-  margin-top: 140px;
+  margin-top: 130px;
 justify-content: flex-start;
+flex-wrap: wrap;
 }
 
 
@@ -378,7 +392,7 @@ body{
   font-family: sans-serif;
 }
 footer{
-  margin-top: 80px;
+  margin-top: 380px;
   background-color: transparent;
   padding: 10px;
   text-align: center;
@@ -395,6 +409,7 @@ footer{
   color: #020202;
 }
 .footer-content{
+  /* margin-top: 200px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,6 +461,7 @@ footer{
   padding: 20px;
 padding-bottom: 9px;
   text-align: center;
+  margin-top: 10px;
 }
 .footer-bottom p{
 float: left;
@@ -489,5 +505,4 @@ margin-top: 10px;
 margin-bottom: 20px;
 }
 }
-/* /////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
