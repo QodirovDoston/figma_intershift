@@ -62,7 +62,7 @@ nav a:hover {
   list-style: none;
 }
 .backround_img{
-  background-image: url('./img/img/Фон\ \(1\).png');
+  background-image: url('../img/img/Фон\ \(1\).png');
   height: 670px;
   width: 100%;
 }
@@ -119,142 +119,15 @@ nav a:hover {
   .same{
     margin-top: 100px;
   }
-  .same button {
-    margin-top: 40px;
-    padding: 15px 30px;
-    border-radius: 100px;
-    border: none;
-  }
-  .same h2 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 150%;
-    color: #4B5258;
-  }
-  .same span {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-    color: #4B5258;
-}
-.same p {
-  margin-top: 30px;
-  font-family: 'Mont';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 160%;
-  color: #4B5258;
-}
-.street {
-  background: #43AAFF;
-  line-height: 150%;
-  letter-spacing: 0.15em;
-  font-family: 'Mont';
-  text-transform: uppercase;
-  color: #FFFFFF;
-  width: 297px;
-  height: 80px;
-  font-size: 13px;
-  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
-}
-.long {
-  margin-top: 66px !important;
-  background: #FFC24D;
-  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
-  font-family: 'Mont';
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 150%;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  width: 297px;
-  height: 80px;
-  border-radius: 100px;
-}
-.long:hover{
-  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
-}
-.street:hover{
-  box-shadow: inset 0px 4px 10px rgba(210, 206, 206, 0.3);
-}
-header{
-  margin-top:  0px;
-}
-.length{
-  display: flex;
-}
+
+
 .fa-solid {
   display: none !important;
   margin-left: 245px;
   margin-top: -63px;
 }
-.imgad{
-  margin-left: 153px;
-  border-radius: 0px 0px 25px 0px ;
-  margin-top: 29px;
-}
-.box_six h5{
-  position: absolute;
-  width: 190.9px;
-  margin: 30px;
-  height: 59.65px;
-  margin-top: 60.17px; 
-  font-family: 'Mont';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 140%;
-  color: #FFFFFF;
-}
-.box_six{
-  width: 278.54px;
-  height: 179.13px;
-  background: #43AAFF;
-  border-radius: 30px;
-  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
-  box-shadow: #9c9fa2;
-}
-.box_six:hover{
-  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
-  
-}
-.box_six1{
-  width: 278.54px;
-  height: 179.13px;
-  border-radius: 30px;
-  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
-  box-shadow: #9c9fa2;
-  background: #FFC24D;
-}
-.box_six1:hover{
-  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-.box_six1 h5{
-  position: absolute;
-  width: 190.9px;
-  margin: 30px;
-  height: 59.65px;
-  margin-top: 60.17px; 
-  font-family: 'Mont';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 140%;
-  color: #ffffff;
-}  
-.big_box{
-  display: flex;
-  gap:55px;
-  margin-top: 130px;
-justify-content: flex-start;
-flex-wrap: wrap;
-}
-/* h-Header ///////////////// */
+
+
 
 /* //////////////////////////////footer///////////////// */
 *{
@@ -418,65 +291,12 @@ display: block !important;
   .length{
     display: grid;
   }
-  .girls{
-    width: 100%;
-  }
-  .same h2 {
-    margin-top: -53px;
-    text-align: center;
-    font-size: 16px !important;
-    margin-left: -2px !important;
-  }
-  .same p {
-    margin-left: 4px;
-    font-size: 12px !important;
-    text-align: center;
-  }
+ 
   .btn {
   display: none;
   }
-  .street {
-    width: 115px;
-    height: 45px;
-    font-size: 6px;
-  }
-  .long {
-    width: 115px;
-    height: 45px;
-    font-size: 6px;
-    margin: 6px !important;
-  }
-  .logo_one h2{
-    margin-top: 2px;
-    margin-left: 0px;
-    
-  }
-  .logo_one p{
-    display: none;
-    
-  }
-  .logo_one h3{
-    display: none;
-    margin-top: 3px;
-    margin-left: 1px;
-  }
-  .logo_one h4{
-    margin-left: 0px;
-  }
-  .logo_one span{
-      padding-top: 100px;
-      margin-left: 150px;
-    }
-    .logo_one button{
-      margin-top: 20px;
-      margin: auto;
-    }
-    header{
-      margin-top: 20px;
-    }
-    .girls{
-      margin-top: 100px;
-    }
+
+  
     .circle{
       display: none;
     }
@@ -484,23 +304,4 @@ display: block !important;
     display: none !important;
     margin-top: 20px;
   }
-  .iconss{
-    display: block !important;
-  }
-  .big_box{
-    justify-content: center;
-    display: grid;
-    margin-top: 2px !important; 
-    gap: 10px;
-  }
-  .box_six1{
-    margin-top: 1px;
-  }
-  .box_six{
-    margin-top: 1px;
-} 
-.ikkita_btn{
-margin-left: 54px;
-  margin-top:-20px ;
-}
 }
